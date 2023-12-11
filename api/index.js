@@ -6,7 +6,7 @@ dotenv.config();
 mongoose.connect("mongodb+srv://shann:shann@mern-estates.cualgwh.mongodb.net/mern-estates?retryWrites=true&w=majority")
 .then( () =>
 {
-console.log('Connected to MongoDb!???');
+console.log('Connected to MongoDb!');
 }
 ) 
 .catch( err => {
